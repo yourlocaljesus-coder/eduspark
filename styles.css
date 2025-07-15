@@ -7,6 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+  }
+
 html {
   scroll-behavior: smooth;
 }
@@ -224,11 +229,15 @@ header {
 }
 
 #menubtn {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  display: hidden;
-  color: white;
+	#menubtn {
+		display: block;
+		position: fixed;
+		top: 25px;
+		right: 25px;
+		z-index: 9999;
+		color: white;
+		cursor: pointer;
+	  }
 }
 
 #closebtn {
