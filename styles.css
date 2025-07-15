@@ -622,3 +622,11 @@ body {
   footer {
 	animation-delay: 1.1s;
   }
+
+  #main-content {
+	transition: filter 0.3s ease;
+  }
+  
+  header.show-mobile-menu ~ #main-content {
+	filter: blur(5px);
+  }
