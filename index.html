@@ -4,32 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Incredible India</title>
+  <title>E-Tourista</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/web logo.png" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <a href="#" class="logo">
-        <span class="span2">E-T</span><b class="spark">ouri</b><span>sta.</span>
-      </a>
-      <ul class="menu-links">
-        <span id="closebtn" class="material-symbols-outlined">close</span>
-        <li><a href="#flashcards">Why Travel?</a></li>
-        <li><a href="#tourarea">What India Has To Offer!</a></li>
-        <li><a href="#3rdsection">3rd Section</a></li>
-        <li><a href="#4thsection">4th Section</a></li>
-        <li><a href="#5thsection">5th Section</a></li>
-      </ul>
-      <span id="menubtn" class="material-symbols-outlined">menu</span>
-    </nav>
-  </header>
 <div id="main-content">
   <section class="hero-section">
+    <video autoplay muted loop id="myVideo">
+      <source src="india.mp4" type="video/mp4">
+    </video>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <span class="span2">E-T</span><b class="spark">o<span class="span3">ur</span>i</b><span>sta.</span>
+        </a>
+        <ul class="menu-links">
+          <span id="closebtn" class="material-symbols-outlined">close</span>
+          <li><a href="#flashcards">Why Travel?</a></li>
+          <li><a href="#tourarea">What India Has To Offer!</a></li>
+          <li><a href="#3rdsection">3rd Section</a></li>
+          <li><a href="#4thsection">4th Section</a></li>
+          <li><a href="#5thsection">5th Section</a></li>
+        </ul>
+        <span id="menubtn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
     <div class="content">
       <h1>Tourism In India!</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <p>India's amazing diversity offers you everything you could ever want in a visit. From the moment you set foot in India, to be  greeted by a graceful namaste, a gesture that denotes both welcome and respect, you are on the way to one of the most rewarding experiences of your life.</p>
       <button>Let's Begin Our Tour!</button>
     </div>
   </section>
@@ -280,17 +284,16 @@ updateCarousel(0);
       });
     };
   </script>
+  </div>
   <footer class="site-footer">
     <div class="footer-content">
       <p>© 2025 Incredible India. All rights reserved.</p>
       <div class="footer-links">
         <a href="#">Back To Top</a>
         <a href="#flashcards">Why Travel?</a>
-        <a href="#">What India Has To Offer?</a>
+        <a href="#">Contact</a>
       </div>
-    </div>
   </footer>
-	</div>
-
+</div>
 </body>
 </html>
